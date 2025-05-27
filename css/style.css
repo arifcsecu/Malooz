@@ -82,7 +82,7 @@ body {
   .hero-overlay-mobile {
     display: flex !important;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     min-height: 100vh;
   }
 }
@@ -108,5 +108,28 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 0 1rem;
+  }
+}
+
+@media (max-width: 1399px) {
+  #navbarContent {
+    padding: 1rem 0;
+  }
+
+  .nav-pill-container {
+    border-radius: 12px !important;
+    padding: 1rem !important;
+    gap: 12px !important;
+  }
+
+  .nav-link {
+    padding: 0.75rem 1rem !important;
+    border-radius: 8px !important;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-link.active {
+    background: #b8eb00 !important;
+    color: #000 !important;
   }
 }
